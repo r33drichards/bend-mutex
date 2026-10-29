@@ -1,0 +1,22 @@
+ALL PROOFS CHECK
+Use --verdict for mathematical validity.
+PASS: guarded update/handoff, invalid owners/releases, reentrancy, 87380 runtime/model transitions through depth 8
+PASS: checker rejects grant while busy
+PASS: checker rejects wrong release clears peer
+PASS: checker rejects runtime grant predicate
+PASS: checker rejects CAS ignores expected
+PASS: guard duplication rejected by affine checker
+PASS: runtime invalid-release test detects unconditional-unlock mutant
+PASS: 1 CPU threads, 20000/20000 acquisitions, counter=20000, overlap=0, released
+PASS: 1 CPU threads, 20000/20000 acquisitions, counter=20000, overlap=0, released
+PASS: 1 CPU threads, 20000/20000 acquisitions, counter=20000, overlap=0, released
+PASS: 2 CPU threads, 10575/20000 acquisitions, counter=10575, overlap=0, released
+PASS: 2 CPU threads, 10467/20000 acquisitions, counter=10467, overlap=0, released
+PASS: 2 CPU threads, 10709/20000 acquisitions, counter=10709, overlap=0, released
+PASS: 4 CPU threads, 10786/20000 acquisitions, counter=10786, overlap=0, released
+PASS: 4 CPU threads, 10826/20000 acquisitions, counter=10826, overlap=0, released
+PASS: 4 CPU threads, 10906/20000 acquisitions, counter=10906, overlap=0, released
+PASS: 8 CPU threads, 10912/20000 acquisitions, counter=10912, overlap=0, released
+PASS: 8 CPU threads, 8055/20000 acquisitions, counter=8055, overlap=0, released
+PASS: 8 CPU threads, 10137/20000 acquisitions, counter=10137, overlap=0, released
+PASS: 153373/240000 acquisitions across 12 native runs; 9 runs observed contention

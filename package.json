@@ -1,0 +1,9 @@
+{
+  "name": "bend-mutex",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/test.mjs",
+    "test:kernel": "node tests/kernel.mjs"
+  }
+}

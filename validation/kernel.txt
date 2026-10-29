@@ -1,0 +1,6 @@
+Bend --verdict with independent BendTT kernel: ALL PROOFS CHECK
+Independent kernel rejects deliberately false initial-safety claim:
+SOME PROOFS FAIL
+In LAWS.initial_safe:
+expected: (model.safe model.initial)
+observed: (.False, ())
